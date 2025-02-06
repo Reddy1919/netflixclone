@@ -1,0 +1,312 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing:border-box;
+}
+
+
+body{
+    background-color:#222;
+
+}
+
+
+
+.banner{
+    background-image: linear-gradient(90deg, #181818 10%, hsla(0, 0%, 9%, .98) 20%, hsla(0, 0%, 9%, .97) 25%, hsla(0, 0%, 9%, .95) 35%, hsla(0, 0%, 9%, .94) 40%, hsla(0, 0%, 9%, .92) 45%, hsla(0, 0%, 9%, .9) 50%, hsla(0, 0%, 9%, .87) 55%, hsla(0, 0%, 9%, .82) 60%, hsla(0, 0%, 9%, .75) 65%, hsla(0, 0%, 9%, .63) 70%, hsla(0, 0%, 9%, .45) 75%, hsla(0, 0%, 9%, .27) 80%, hsla(0, 0%, 9%, .15) 85%, hsla(0, 0%, 9%, .08) 90%, hsla(0, 0%, 9%, .03) 95%, hsla(0, 0%, 9%, 0)), url('assets/images/ginnywedssunnybanner.jpg'); 
+    /* background: linear-gradient(30deg,#181818 10%,hsla(0,0%,9%,.98) 20%,hsla(0,0%,9%,.97) 25%,hsla(0,0%,9%,.95) 35%,hsla(0,0%,9%,.94) 40%,hsla(0,0%,9%,.92) 45%,hsla(0,0%,9%,.9) 50%,hsla(0,0%,9%,.87) 55%,hsla(0,0%,9%,.82) 60%,hsla(0,0%,9%,.75) 65%,hsla(0,0%,9%,.63) 70%,hsla(0,0%,9%,.45) 75%,hsla(0,0%,9%,.27) 80%,hsla(0,0%,9%,.15) 85%,hsla(0,0%,9%,.08) 90%,hsla(0,0%,9%,.03) 5%,hsla(0,0%,9%,0)),url('assets/jpg/banner/bannerimg.jpg');  */
+    background-position: center center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 100vh;
+}
+
+
+.banner .banner-content{
+    padding:13% 5%;
+
+}
+
+
+.banner .banner-content .banner-title h4{
+    letter-spacing: 3px;
+    color:rgb(231, 227, 220);
+    font-size: 20rcm;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight:bold;
+
+}
+
+.banner .banner-content .banner-title p{
+    max-width: 700px;
+    color: azure;
+    font-size: 0.5rcm;
+    padding:2% 0%;
+
+}
+
+.banner .banner-content .banner-button .play{
+    
+    background-color: #030006;
+    color:rgb(184, 171, 171);
+    border: none;
+    border-radius: 5px;
+    padding:1% 2%;
+    font-size:1.3rcm;
+    margin-right:10px; 
+    transition: 0.4s;
+    margin-top: 30px;  
+
+}
+.banner .banner-content .banner-button .play:hover{
+    background-color:#e8dada ;
+    color: rgb(1, 4, 6);
+
+}
+
+
+.banner .banner-content .banner-button .info{
+    background-color: #030006;
+    color:rgb(184, 171, 171);
+    border: none;
+    border-radius: 5px;
+    padding:1% 2%;
+    font-size:1.3rcm;
+    margin-right:5px; 
+    transition: 0.4s;  
+}
+
+.banner .banner-content .banner-button .info:hover{
+    background-color:#e8dada ;
+    color: rgb(1, 4, 6);
+
+} 
+.banner .banner-content .join1 {
+    background-image: linear-gradient(90deg, #333 5%, #181818 95%);
+    display: flex;
+    justify-content: space-between;
+    padding: 1px 30px;
+    margin: 1% 3% -12% 0%;
+    box-shadow: 8px 5px 16px 0 rgba(24, 3, 3, 0.921);
+}
+
+.banner .banner-content .join1 .join2 {
+    display: flex;
+}
+
+.banner .banner-content .join1 .join2 .join-title .img {
+    height: 40px;
+    width: 25px;
+    margin-top: 8px;
+}
+
+.banner .banner-content .join1 .join2 .join-heading .heading {
+    padding: 18px;
+    color: #fff;
+    font-weight: 600;
+}
+.banner .banner-content .join1 .join-button .button1 {
+    background-color: rgb(230, 0, 0);
+    padding: 10px 25px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: #fff;
+    margin: 9px 0px 0px 0px;
+    border-radius: 4px;
+    transition: 0.3s ease-in-out;
+}
+.banner .banner-content .join1 .join-button .button1:hover{
+    background-color: rgb(255, 1, 1);
+}
+
+section .posters {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    margin: 1%;
+    max-width: 100%;
+  
+
+}
+
+section .posters .poster-title .poster {
+    height: 150px;
+    margin: 0 7px;
+    transition: transform 420ms;
+}
+
+section .posters .poster-title h3 {
+    font-size: small;
+    font-weight: 540;
+    text-align: center;
+    color: #ffffff;
+}
+
+section .posters .poster:hover {
+    transform: scale(1.09);
+}
+
+section .posters::-webkit-scrollbar {
+    width: 0;
+}
+
+
+section .posters::-webkit-scrollbar-track {
+    background-color: #222; /* Track color */
+}
+
+section .posters::-webkit-scrollbar-thumb {
+    background-color: #222; /* Handle color */
+}
+
+section h1 {
+    color: #fff;
+}
+ 
+section h2 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 2% 1%;
+    padding-left: 30px;
+}
+
+section .posters .poster-title h3 {
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #ffff;
+    text-align: center;
+}
+section .season{
+    color: #fff;
+    padding-left: 30px;
+    display: block;
+}
+section .releasing{
+    color: #fff;
+    padding-top: 30px;
+    padding-left: 30px;
+    display: block;
+}
+section .text{
+    color: #a3a3a3;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 5px 0 20px;
+    width: 40%;
+    display: block;
+    padding-left: 30px ;
+    
+}
+
+
+nav .logo
+{
+    width: 120px;
+    object-fit: contain;
+    margin: 10px 20px ;
+}
+nav .profile
+{
+    width: 50px;
+    object-fit: contain;
+    border-radius:100%;
+    border: 2px solid #f10e0e;
+    margin: 6px 20px;
+    border: 2px;
+}
+nav 
+{
+    background-color: transparent;
+    position: fixed;
+    display: flex;
+    justify-content:space-between ;
+    width: 100%;
+    padding-bottom: 0.01%;
+}
+footer{
+padding: 50px 1.5% 10px;
+border-top: 5px solid #333;
+color: #666;
+}
+footer h1{
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+    padding-left: 4%;
+}
+footer .col 
+{
+    margin: 10px 50px;
+}
+footer .row {
+    display: flex;
+    align-items: flex-start;
+    padding: 10px 0px;
+}
+footer .col a 
+{
+    text-decoration: none;
+    color: #666;
+    font-size: 1rem;
+    display: block;
+    padding: 10px;
+}
+.language{
+    background:transparent;
+    border: 2px solid #666;
+    font-size: 1rem;
+    color: #666;
+    border-radius: 3px;
+    margin-left: 60px;
+    padding:4px;
+}
+.country
+{
+    padding: 20px 60px;
+    font-size: 1rem;
+}
+i
+{
+    padding: 4px;
+}
+section h2 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 2% 1%;
+    padding-left: 30px;
+}
+
+section .Episodes {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    margin: 1% 2%;
+
+}
+
+section .Episodes::-webkit-scrollbar {
+    display: none;
+}
+
+section .Episodes .Episodes-title .Episode {
+    height: 180px;
+    width: 320px;
+    margin: 0% 7px;
+    transition: transform 420ms;
+}
+section .paragraph{
+    color: #a3a3a3;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 5px 0 20px;
+    width: 100%;
+    display: block;
+    padding-left: 9.3px ;
+}

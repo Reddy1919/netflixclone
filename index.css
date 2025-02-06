@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Roboto:wght@400;500;700;900&display=swap');
+
+*
+{
+   margin: 0;
+   padding: 0; 
+   box-sizing: border-box;
+   font-family: 'Roboto', sans-serif;
+}
+body{
+background-color: #000;
+}
+.header
+{
+    height:100vh;
+    width:100%;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url(assets/images/netflixsignup.jpg);
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+    position: relative;
+    padding:10px;
+    color: #fff;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+}
+nav .logo
+{
+    width:180px;
+}
+nav button
+{
+    border:none;
+    outline: none;
+}
+nav .language
+{
+    background: transparent;
+    border: solid #cbc8c8e6 2px;
+    font-size: 1.1rem;
+    color: #fff;
+    border-radius:3px;
+    padding:4px;
+    margin-right:10px;
+    font-weight:300;
+    padding: 7px 14px;
+}
+nav .signin
+{
+background-color: rgb(207, 26, 26);
+color:#fff;
+padding:4px;
+border:none;
+font-size: 1.1rem;
+border-radius:3px;
+margin-right: 35px;
+cursor: pointer;
+font-weight:300;
+padding: 8px 14px;
+}
+nav .signin:hover{
+    background-color: rgb(215, 25, 25);
+}
+
+.header-title
+{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+
+}
+.header-title h1{
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 70px;
+    max-width: 1300px;
+}
+.header-title h3{
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.email-form input{
+    flex: 1;
+    border:0;
+    outline: 0;
+    margin-left: 20px;
+    width: 40%;
+    height:50px;
+    background-color: transparent;
+    border: 1px solid rgb(239, 199, 199);
+    margin-right: 7px;
+    border-radius: 4px;
+}
+.email-form input::placeholder
+{
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0px 3%;
+    color: #fff;
+}
+.email-form button{
+    background-color: rgb(193, 28, 28);
+    border: 0;
+    outline: 0;
+    color: #fff;
+    font-size: 1.1rem;
+    cursor: pointer;
+    padding: 15px 30px;
+    border-radius: 4px;
+}
+.email-form
+{
+    margin: 2% 0%;;
+}
+.container
+{
+    display:flex;
+}
+.container-title
+{
+    padding : 10% 6%;
+
+}
+.container .image 
+{
+    margin-right : 20rem;
+    max-width: 100%;
+    height: 400px;
+}
+.container .container-title h1{
+    font-size: 3rem;
+    font-weight: 600;
+    padding: 0% 10%;
+}
+.container .container-title p{
+    font-size: 1.4rem;
+    font-weight:400;
+    padding-right: 20%;
+    padding-left:10%;
+    padding-top: 3%;
+}
+.container1
+{
+    display:flex;
+}
+.container-title
+{
+    padding : 10% 6%;
+
+}
+.container1 .image 
+{
+    margin-left : 10rem;
+    max-width: 100%;
+    height: 400px;
+}
+.container1 .container-title h1{
+    font-size: 3rem;
+    font-weight: 600;
+    padding: 0% 10%;
+}
+.container1 .container-title p{
+    font-size: 1.4rem;
+    font-weight:400;
+    padding-right: 20%;
+    padding-left:10%;
+    padding-top: 3%;
+}
+.minibar
+{
+    max-width: 100%;
+    height:10px;
+    background-color: #222;
+}
+.FAQ
+{
+    padding: 10px 12%;
+    font-size:1.2rem;
+    text-align: center;
+}
+.FAQ h1
+{
+  font-weight: 500;
+  font-size: 3.5rem;  
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+.FAQ .ul
+{
+margin: 60px auto;
+max-width: 1000px;
+width:100%;
+
+}
+.FAQ ul li
+{
+    list-style: none;
+    width:100%;
+    padding:5px;
+}
+.FAQ ul li label{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(45, 45, 45);
+    font-size: 1.3rem;
+    font-weight: 500;
+    cursor: pointer;
+    margin-bottom: 3px;
+    position: relative;
+}
+label::after
+{
+    content: '+';
+    font-size: 35px;
+    position: absolute;
+    right: 20px;
+
+}
+input[type="radio"]
+{
+    display: none;
+}
+.FAQ .content 
+{
+background-color: #494848;
+text-align: center;
+padding: 0% 2%;
+max-height: 0;
+overflow: hidden;
+}
+footer{
+    padding: 50px 1.5% 10px;
+    border-top: 5px solid #333;
+    color: #666;
+    }
+    footer h1{
+        font-size: 1.2rem;
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 30px;
+        padding-left: 4%;
+    }
+    footer .col 
+    {
+        margin: 10px 50px;
+    }
+    footer .row {
+        display: flex;
+        align-items: flex-start;
+        padding: 10px 0px;
+    }
+    footer .col a 
+    {
+        text-decoration: none;
+        color: #666;
+        font-size: 1rem;
+        display: block;
+        padding: 10px;
+    }
+    .language{
+        background:transparent;
+        border: 2px solid #666;
+        font-size: 1rem;
+        color: #666;
+        border-radius: 3px;
+        margin-left: 60px;
+        padding:4px;
+    }
+    .country
+    {
+        padding: 20px 60px;
+        font-size: 1rem;
+    }
+    i
+    {
+        padding: 4px;
+    }

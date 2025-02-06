@@ -1,0 +1,110 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Roboto:wght@400;500;700;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/images/netflixsignup.jpg');
+    background-size: cover;
+}
+
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height:80%;
+    width: 440px;
+    padding: 60px;
+    background-color: rgba(0, 0, 0, 0.85);
+    border-radius: 4px;
+    transform: translate(-50%, -50%);
+    background-position: center;
+}
+
+.wrapper h2 {
+    color: #fff;
+    font-size: 2rem;
+}
+
+.wrapper form {
+    margin: 25px 0 65px;
+}
+
+.wrapper input {
+    height: 40px;
+    width: 100%;
+    background-color: #333;
+    outline: none;
+    border: none;
+    color: #8c8c8c;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin: 2% 0%;
+}
+
+.wrapper input::placeholder {
+    color: #c4bcbc;
+    left: 20px;
+    top: 20px;
+    font-size: 1rem;
+    padding: 10% 4%;
+}
+
+.wrapper form button {
+    width: 100%;
+    background-color: rgb(226, 26, 26);
+    border-radius: 2px;
+    color: #fff;
+    padding: 10px 40px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    margin: 20px 0px;
+}
+
+.wrapper form button:hover {
+    background-color: rgb(226, 26, 28);
+}
+
+.wrapper form .forms-help {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: space-between;
+    margin-top: 10px; /* Adjust the margin as needed */
+}
+
+.wrapper form .forms-help input[type="checkbox"] {
+    height: 20px;
+    width: 20px;
+    margin: 1%;
+}
+
+.wrapper form .forms-help label {
+    color: #b3b3b3;
+    margin-right: 32%;
+    margin-top: 1%;
+}
+
+.wrapper form .forms-help a {
+    color: #b3b3b3;
+    text-decoration: none;
+}
+
+.wrapper form .forms-help a:hover {
+    text-decoration: underline;
+}
